@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>emotion_aware_assistant</name>
+  <version>1.0.0</version>
+  <description>
+    Emotion-aware conversational assistant built on ROS 2: detects the emotion in user text
+    with a RoBERTa model fine-tuned on GoEmotions and replies with an adapted, empathetic response.
+  </description>
+  <maintainer email="mazen.benabid@enstab.ucar.tn">Takwa Belghith</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,21 @@
+# Lightweight CI: style check + unit tests of the ROS-independent logic.
+# (The ROS nodes themselves need a full ROS 2 install and are tested manually.)
+
+stages:
+  - lint
+  - test
+
+default:
+  image: python:3.10-slim
+
+lint:
+  stage: lint
+  script:
+    - pip install --quiet flake8
+    - flake8 emotion_aware_assistant launch test setup.py
+
+unit-tests:
+  stage: test
+  script:
+    - pip install --quiet pytest
+    - python -m pytest test -v

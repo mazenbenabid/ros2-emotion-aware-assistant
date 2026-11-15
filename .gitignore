@@ -1,0 +1,22 @@
+# colcon workspace artefacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Raw (uncompressed) recordings - commit only docs/demo.mp4
+*_raw.mp4

@@ -1,0 +1,3 @@
+# Python dependencies not provided by ROS 2 (install with pip).
+transformers>=4.30
+torch>=2.0
