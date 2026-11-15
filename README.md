@@ -1,4 +1,4 @@
-# Emotion Recognition Project
+# Emotion-Aware Assistant
 
 
 A modular **ROS 2** system that **detects the emotion behind a user's message** with a
