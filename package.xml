@@ -7,7 +7,7 @@
     Emotion-aware conversational assistant built on ROS 2: detects the emotion in user text
     with a RoBERTa model fine-tuned on GoEmotions and replies with an adapted, empathetic response.
   </description>
-  <maintainer email="mazen.benabid@enstab.ucar.tn">Takwa Belghith</maintainer>
+  <maintainer email="mazen.benabid@enstab.ucar.tn">Mazen Ben Abid</maintainer>
   <license>MIT</license>
 
   <exec_depend>rclpy</exec_depend>

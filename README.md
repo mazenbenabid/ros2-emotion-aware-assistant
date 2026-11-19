@@ -1,6 +1,5 @@
 # Emotion-Aware Assistant
 
-
 A modular **ROS 2** system that **detects the emotion behind a user's message** with a
 **RoBERTa** model fine-tuned on Google's **GoEmotions** dataset, then **replies with an empathetic
 response adapted to that emotion**.
@@ -208,4 +207,4 @@ The same tests and a `flake8` style check run automatically in **GitLab CI** on 
 
 ## Author
 
-**Mazen Ben Abid**, Advanced Technologies Engineer
+**Mazen Ben Abid**, Engineering Student & Intern, EagleProjects Tunisia

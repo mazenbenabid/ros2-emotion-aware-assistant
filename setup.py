@@ -15,7 +15,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Takwa Belghith',
+    maintainer='Mazen Ben Abid',
     maintainer_email='mazen.benabid@enstab.ucar.tn',
     description='Emotion-aware conversational assistant built on ROS 2 and Transformers.',
     license='MIT',
